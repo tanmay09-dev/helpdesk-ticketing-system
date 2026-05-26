@@ -1,8 +1,0 @@
-target/
-.idea/
-.vscode/
-*.class
-*.log
-.env
-
-application-local.properties
