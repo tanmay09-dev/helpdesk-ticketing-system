@@ -1,4 +1,4 @@
-package com.tanmay.helpdesk_backend;
+package com.tanmay.helpdesk_backend.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

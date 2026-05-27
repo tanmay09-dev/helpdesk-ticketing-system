@@ -1,4 +1,4 @@
-package com.tanmay.helpdesk_backend;
+package com.tanmay.helpdesk_backend.security;
 
 import java.io.IOException;
 import java.util.List;

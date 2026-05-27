@@ -1,4 +1,4 @@
-package com.tanmay.helpdesk_backend;
+package com.tanmay.helpdesk_backend.security;
 
 import java.security.Key;
 import java.util.Date;

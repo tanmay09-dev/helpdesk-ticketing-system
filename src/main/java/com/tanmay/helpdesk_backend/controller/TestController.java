@@ -2,8 +2,6 @@ package com.tanmay.helpdesk_backend.controller;
 
 import java.util.List;
 
-import com.tanmay.helpdesk_backend.repository.UserRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -19,8 +17,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tanmay.helpdesk_backend.JwtUtil;
 import com.tanmay.helpdesk_backend.entity.User;
+import com.tanmay.helpdesk_backend.repository.UserRepository;
+import com.tanmay.helpdesk_backend.security.JwtUtil;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
